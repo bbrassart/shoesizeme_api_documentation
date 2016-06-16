@@ -7,9 +7,11 @@ swagger: '2.0'
 info:
   version: "1.0"
   title: ShoeSizeMe API description
-  description: Base URL **http://shoesize.me/api**
-  
-    
+  description: Base URL **https://shoesize.me/api**
+host: shoesize.me/api
+schemes:
+  - https
+
 paths:
   /models/top_shoes:
     get:
@@ -18,17 +20,28 @@ paths:
       tags:
         - Top Shoes
       parameters:
+        - name: accept
+          in: header
+          description: Required header
+          required: true
+          type: string
+          format: string
+          default: "application/vnd.ssm.v3"
+
         - name: shop_id
           in: query
+          default: 1117
           description: The numerical ID of the ShoeSizeMe partner
           required: true
           type: integer
         - name: gender
+          default: 0
           in: query
           description: The numerical ID (0 for men, 1 for women) to filter top shoes by gender
           required: true
           type: integer
         - name: sid
+          default: '111-222-333-foobar'
           in: query
           description: A unique identifier to track the user's session
           required: true
@@ -70,17 +83,27 @@ paths:
       tags:
         - Top Brands
       parameters:
+        - name: accept
+          in: header
+          description: Required header
+          required: true
+          type: string
+          format: string
+          default: "application/vnd.ssm.v3"
         - name: shop_id
+          default: 1117
           in: query
           description: The numerical ID of the ShoeSizeMe partner
           required: true
           type: integer
         - name: gender
+          default: 0
           in: query
           description: The numerical ID (0 for men, 1 for women) to filter top shoes by gender
           required: true
           type: integer
         - name: sid
+          default: '111-222-333-foobar'
           in: query
           description: A unique identifier to track the user's session
           required: true
@@ -122,22 +145,33 @@ paths:
       tags:
         - Top Models
       parameters:
+        - name: accept
+          in: header
+          description: Required header
+          required: true
+          type: string
+          format: string
+          default: "application/vnd.ssm.v3"
         - name: shop_id
+          default: 1117
           in: query
           description: The numerical ID of the ShoeSizeMe partner
           required: true
           type: integer
         - name: gender
+          default: 0
           in: query
           description: The numerical ID (0 for men, 1 for women) to filter top shoes by gender
           required: true
           type: integer
         - name: sid
+          default: '111-222-333-foobar'
           in: query
           description: A unique identifier to track the user's session
           required: true
           type: string
         - name: brand_ids[]
+          default: 1966
           in: query
           description: Filter the models by brand ID
           required: true
@@ -182,17 +216,27 @@ paths:
       tags:
         - Brands
       parameters:
+        - name: accept
+          in: header
+          description: Required for header
+          required: true
+          type: string
+          format: string
+          default: "application/vnd.ssm.v3"
         - name: shop_id
+          default: 1117
           in: query
           description: The numerical ID of the ShoeSizeMe partner
           required: true
           type: integer
         - name: gender
           in: query
+          default: 0
           description: The numerical ID (0 for men, 1 for women) to filter brands by gender
           required: true
           type: integer
         - name: sid
+          default: '111-222-333-foobar'
           in: query
           description: A unique identifier to track the user's session
           required: true
@@ -232,23 +276,34 @@ paths:
       tags:
         - Models
       parameters:
+        - name: accept
+          in: header
+          description: Required for header
+          required: true
+          type: string
+          format: string
+          default: "application/vnd.ssm.v3"
         - name: shop_id
           in: query
+          default: 1117
           description: The numerical ID of the ShoeSizeMe partner
           required: true
           type: integer
         - name: gender
           in: query
+          default: 0
           description: The numerical ID (0 for men, 1 for women) to filter brands by gender
           required: true
           type: integer
         - name: sid
+          default: '111-222-333-foobar'
           in: query
           description: A unique identifier to track the user's session
           required: true
           type: string
         - name: brand_ids[]
           in: query
+          default: 1966
           description: Filter the models by brand ID
           required: true
           type: integer
@@ -288,22 +343,33 @@ paths:
       tags:
         - Categories
       parameters:
+        - name: accept
+          in: header
+          description: Required header
+          required: true
+          type: string
+          format: string
+          default: "application/vnd.ssm.v3"
         - name: shop_id
+          default: 1117
           in: query
           description: The numerical ID of the ShoeSizeMe partner
           required: true
           type: integer
         - name: gender
+          default: 0
           in: query
           description: The numerical ID (0 for men, 1 for women) to filter categories by gender
           required: true
           type: integer
         - name: sid
+          default: '111-222-333-foobar'
           in: query
           description: A unique identifier to track the user's session
           required: true
           type: string
         - name: brand_ids[]
+          default: 1966
           in: query
           description: Filter the categories by brand ID
           required: true
@@ -343,29 +409,41 @@ paths:
       description: |
         This endpoint returns a collection of sizes for a specific model ID. Optional param is **model_id** (e.g. https://shoesize.me/api/sizes?brand_ids[]=1969&gender=1&shop_id=4784&sid=51524-y1455-l154-3w587-145517930f04)
       parameters:
+        - name: accept
+          in: header
+          description: blalbnla
+          required: true
+          type: string
+          format: string
+          default: "application/vnd.ssm.v3"
         - name: shop_id
+          default: 1117
           in: query
           description: The numerical ID of the ShoeSizeMe partner
           required: true
           type: integer
         - name: gender
+          default: 0
           in: query
           description: The numerical ID (0 for men, 1 for women) to filter categories by gender
           required: true
           type: integer
         - name: sid
+          default: '111-222-333-foobar'
           in: query
           description: A unique identifier to track the user's session
           required: true
           type: string
           
         - name: brand_ids[]
+          default: 1966
           in: query
           description: Filter the sizes by brand ID, if no model ID is provided
           required: true
           type: integer
           
         - name: model_id
+          default: 861089
           in: query
           description: The numerical ID of the shoe model
           required: false
