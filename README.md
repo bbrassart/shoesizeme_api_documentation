@@ -1,6 +1,6 @@
 # [ShoeSize.Me API documentation](https://shoesize.me)
 
-**Live Demo:** [https://bbrassart.github.io/shoesize_me_documentation.html](https://bbrassart.github.io/shoesize_me_documentation.html)
+**Live Demo:** [https://bbrassart.github.io/shoesizeme_api_documentation](https://bbrassart.github.io/shoesizeme_api_documentation)
 
 ---
 
