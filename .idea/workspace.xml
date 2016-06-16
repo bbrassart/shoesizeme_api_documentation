@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3effc51c-fd14-4e9b-b3fe-c569558ddeff" name="Default" comment="">
+    <list default="true" id="3effc51c-fd14-4e9b-b3fe-c569558ddeff" name="Default" comment="Removed subpath from">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shoesizeme_api.yaml" afterPath="$PROJECT_DIR$/shoesizeme_api.yaml" />
     </list>
@@ -38,8 +38,8 @@
       <file leaf-file-name="shoesizeme_api.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shoesizeme_api.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8628885">
-              <caret line="409" column="107" selection-start-line="409" selection-start-column="107" selection-end-line="409" selection-end-column="107" />
+            <state vertical-scroll-proportion="-0.4606947">
+              <caret line="406" column="7" selection-start-line="406" selection-start-column="7" selection-end-line="406" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -342,7 +342,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466084715206</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed useless links">
+      <created>1466084896299</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1466084896299</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -376,7 +382,8 @@
     <MESSAGE value="Modified path of API + added header + added default param value" />
     <MESSAGE value="Added depended files" />
     <MESSAGE value="Modified tags&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified tags&#10;" />
+    <MESSAGE value="Removed useless links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed useless links" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -541,8 +548,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shoesizeme_api.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8628885">
-          <caret line="409" column="107" selection-start-line="409" selection-start-column="107" selection-end-line="409" selection-end-column="107" />
+        <state vertical-scroll-proportion="-0.4606947">
+          <caret line="406" column="7" selection-start-line="406" selection-start-column="7" selection-end-line="406" selection-end-column="7" />
           <folding />
         </state>
       </provider>

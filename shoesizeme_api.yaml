@@ -8,12 +8,12 @@ info:
   version: "1.0"
   title: ShoeSizeMe API description
   description: Base URL **https://shoesize.me/api**
-host: shoesize.me/api
+host: shoesize.me
 schemes:
   - https
 
 paths:
-  /models/top_shoes:
+  /api/models/top_shoes:
     get:
       description: |
         This endpoint returns a collection of the most popular shoes. This list is customizable on a per-shop basis
@@ -58,10 +58,10 @@ paths:
                 brand:
                   type: string
                   description: The commercial name of the brand of the shoe
-                brand_id: 
+                brand_id:
                   type: integer
                   description: The numerical ID that identifies the brand of the shoe
-                category_id: 
+                category_id:
                   type: integer
                   description: The numerical ID that identifies the category of the shoe
                 id:
@@ -76,7 +76,7 @@ paths:
         500:
           description: Internal Server Error
           
-  /brands/top_brands:
+  /api/brands/top_brands:
     get:
       description: |
         This endpoint returns a collection of the most popular brands. This list is customizable on a per-shop basis
@@ -138,7 +138,7 @@ paths:
         500:
           description: Internal Server Error
           
-  /models/top_models:
+  /api/models/top_models:
     get:
       description: |
         This endpoint returns a collection of top models
@@ -209,7 +209,7 @@ paths:
         500:
           description: Internal Server Error
           
-  /brands:
+  /api/brands:
     get:
       description: |
         This endpoint returns a collection of brands
@@ -269,7 +269,7 @@ paths:
         500:
           description: Internal Server Error
           
-  /models:
+  /api/models:
     get:
       description: |
         This endpoint returns a collection of models
@@ -336,7 +336,7 @@ paths:
         500:
           description: Internal Server Error
           
-  /categories:
+  /api/categories:
     get:
       description: |
         This endpoint returns a collection of categories. Categories are meant to sort, in an easy and comprehensible way, all kind of different shoes
@@ -404,7 +404,7 @@ paths:
         500:
           description: Internal Server Error
           
-  /sizes:
+  /api/sizes:
     get:
       description: |
         This endpoint returns a collection of sizes for a specific model ID. Optional param is **model_id**
