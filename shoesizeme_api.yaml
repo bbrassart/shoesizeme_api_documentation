@@ -16,7 +16,7 @@ paths:
   /models/top_shoes:
     get:
       description: |
-        This endpoint returns a collection of the most popular shoes. This list is customizable on a per-shop basis (e.g. http://shoesize.me/api/models/top_shoes?shop_id=4784&gender=0&sid=51524-y1455-l154-3w587-145517930f04)
+        This endpoint returns a collection of the most popular shoes. This list is customizable on a per-shop basis
       tags:
         - Models
       parameters:
@@ -79,7 +79,7 @@ paths:
   /brands/top_brands:
     get:
       description: |
-        This endpoint returns a collection of the most popular brands. This list is customizable on a per-shop basis (e.g. http://shoesize.me/api/brands/top_brands?shop_id=4784&gender=0&sid=51524-y1455-l154-3w587-145517930f04)
+        This endpoint returns a collection of the most popular brands. This list is customizable on a per-shop basis
       tags:
         - Brands
       parameters:
@@ -141,7 +141,7 @@ paths:
   /models/top_models:
     get:
       description: |
-        This endpoint returns a collection of top models (e.g. http://api.shoesize.me/models?shop_id=4784&brand_id=1996&gender=0&sid=51524-y1455-l154-3w587-145517930f04 )
+        This endpoint returns a collection of top models
       tags:
         - Models
       parameters:
@@ -212,7 +212,7 @@ paths:
   /brands:
     get:
       description: |
-        This endpoint returns a collection of brands (e.g. http://shoesize.me/api/brands?shop_id=4784&gender=0&sid=51524-y1455-l154-3w587-145517930f04)
+        This endpoint returns a collection of brands
       tags:
         - Brands
       parameters:
@@ -272,7 +272,7 @@ paths:
   /models:
     get:
       description: |
-        This endpoint returns a collection of models (e.g. http://shoesize.me/api/models?shop_id=4784&gender=0&sid=51524-y1455-l154-3w587-145517930f04)
+        This endpoint returns a collection of models
       tags:
         - Models
       parameters:
@@ -339,7 +339,7 @@ paths:
   /categories:
     get:
       description: |
-        This endpoint returns a collection of categories. Categories are meant to sort, in an easy and comprehensible way, all kind of different shoes (e.g. http://shoesize.me/api/categories?shop_id=4784&gender=0&sid=51524-y1455-l154-3w587-145517930f04&brand_ids=1987)
+        This endpoint returns a collection of categories. Categories are meant to sort, in an easy and comprehensible way, all kind of different shoes
       tags:
         - Categories
       parameters:
@@ -407,7 +407,7 @@ paths:
   /sizes:
     get:
       description: |
-        This endpoint returns a collection of sizes for a specific model ID. Optional param is **model_id** (e.g. https://shoesize.me/api/sizes?brand_ids[]=1969&gender=1&shop_id=4784&sid=51524-y1455-l154-3w587-145517930f04)
+        This endpoint returns a collection of sizes for a specific model ID. Optional param is **model_id**
       parameters:
         - name: accept
           in: header
