@@ -18,7 +18,7 @@ paths:
       description: |
         This endpoint returns a collection of the most popular shoes. This list is customizable on a per-shop basis (e.g. http://shoesize.me/api/models/top_shoes?shop_id=4784&gender=0&sid=51524-y1455-l154-3w587-145517930f04)
       tags:
-        - Top Shoes
+        - Models
       parameters:
         - name: accept
           in: header
@@ -81,7 +81,7 @@ paths:
       description: |
         This endpoint returns a collection of the most popular brands. This list is customizable on a per-shop basis (e.g. http://shoesize.me/api/brands/top_brands?shop_id=4784&gender=0&sid=51524-y1455-l154-3w587-145517930f04)
       tags:
-        - Top Brands
+        - Brands
       parameters:
         - name: accept
           in: header
@@ -143,7 +143,7 @@ paths:
       description: |
         This endpoint returns a collection of top models (e.g. http://api.shoesize.me/models?shop_id=4784&brand_id=1996&gender=0&sid=51524-y1455-l154-3w587-145517930f04 )
       tags:
-        - Top Models
+        - Models
       parameters:
         - name: accept
           in: header

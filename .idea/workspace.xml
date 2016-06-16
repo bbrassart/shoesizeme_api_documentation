@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3effc51c-fd14-4e9b-b3fe-c569558ddeff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/shoesizeme_api_documentation.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shoesizeme_api.yaml" afterPath="$PROJECT_DIR$/shoesizeme_api.yaml" />
     </list>
     <ignored path="shoesizeme_api_documentation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +38,8 @@
       <file leaf-file-name="shoesizeme_api.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/shoesizeme_api.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50639856">
-              <caret line="445" column="25" selection-start-line="445" selection-start-column="25" selection-end-line="445" selection-end-column="25" />
+            <state vertical-scroll-proportion="-9.641682">
+              <caret line="145" column="10" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -334,7 +330,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466084317818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added depended files">
+      <created>1466084438625</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1466084438625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -366,7 +368,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modified path of API + added header + added default param value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified path of API + added header + added default param value" />
+    <MESSAGE value="Added depended files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added depended files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -531,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shoesizeme_api.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50639856">
-          <caret line="445" column="25" selection-start-line="445" selection-start-column="25" selection-end-line="445" selection-end-column="25" />
+        <state vertical-scroll-proportion="-9.641682">
+          <caret line="145" column="10" selection-start-line="145" selection-start-column="10" selection-end-line="145" selection-end-column="10" />
           <folding />
         </state>
       </provider>
