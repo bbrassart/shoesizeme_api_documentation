@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3effc51c-fd14-4e9b-b3fe-c569558ddeff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="shoesizeme_api_documentation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shoesizeme_api.yaml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shoesizeme_api.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shoesizeme_api.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80255944">
+            <state vertical-scroll-proportion="0.0">
               <caret line="486" column="44" selection-start-line="486" selection-start-column="44" selection-end-line="486" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.2">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.06963249">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -215,8 +216,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/shoesizeme_api.yaml" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -375,7 +376,13 @@
       <option name="project" value="LOCAL" />
       <updated>1466087051784</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Modified README.md&#10;">
+      <created>1466087063768</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1466087063768</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -412,7 +419,8 @@
     <MESSAGE value="Removed useless links" />
     <MESSAGE value="Added a README file" />
     <MESSAGE value="Modified README.me&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified README.me&#10;" />
+    <MESSAGE value="Modified README.md&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified README.md&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -894,18 +902,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/shoesizeme_api.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.2">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="486" column="44" selection-start-line="486" selection-start-column="44" selection-end-line="486" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shoesizeme_api.yaml">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80255944">
-          <caret line="486" column="44" selection-start-line="486" selection-start-column="44" selection-end-line="486" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.06963249">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
