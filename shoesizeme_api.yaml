@@ -1,9 +1,4 @@
-# Example YAML to get you started quickly.
-# Be aware that YAML has indentation based scoping.
-# Code completion support is available so start typing for available options.
-swagger: '2.0'
 
-# This is your document metadata
 info:
   version: "1.0"
   title: ShoeSizeMe API public description
@@ -35,13 +30,13 @@ paths:
         - name: shop_id
           in: query
           default: 1117
-          description: The numerical ID of the ShoeSizeMe client
+          description: The unique ID number of the ShoeSizeMe client
           required: true
           type: integer
         - name: gender
           default: 0
           in: query
-          description: The numerical ID representing the gender of the user - 0 for men, 1 for women
+          description: The unique ID number representing the gender of the user - 0 for men, 1 for women
           required: true
           type: integer
         - name: sid
@@ -97,13 +92,13 @@ paths:
         - name: shop_id
           default: 1117
           in: query
-          description: The numerical ID of the ShoeSizeMe client
+          description: The unique ID number of the ShoeSizeMe client
           required: true
           type: integer
         - name: gender
           default: 0
           in: query
-          description: The numerical ID representing the gender of the user - 0 for men, 1 for women
+          description: The unique ID number representing the gender of the user - 0 for men, 1 for women
           required: true
           type: integer
         - name: sid
@@ -159,13 +154,13 @@ paths:
         - name: shop_id
           default: 1117
           in: query
-          description: The numerical ID of the ShoeSizeMe client
+          description: The unique ID number of the ShoeSizeMe client
           required: true
           type: integer
         - name: gender
           default: 0
           in: query
-          description: The numerical ID representing the gender of the user - 0 for men, 1 for women
+          description: The unique ID number representing the gender of the user - 0 for men, 1 for women
           required: true
           type: integer
         - name: sid
@@ -230,13 +225,13 @@ paths:
         - name: shop_id
           default: 1117
           in: query
-          description: The numerical ID of the ShoeSizeMe client
+          description: The unique ID number of the ShoeSizeMe client
           required: true
           type: integer
         - name: gender
           in: query
           default: 0
-          description: The numerical ID representing the gender of the user - 0 for men, 1 for women
+          description: The unique ID number representing the gender of the user - 0 for men, 1 for women
           required: true
           type: integer
         - name: sid
@@ -290,13 +285,13 @@ paths:
         - name: shop_id
           in: query
           default: 1117
-          description: The numerical ID of the ShoeSizeMe client
+          description: The unique ID number of the ShoeSizeMe client
           required: true
           type: integer
         - name: gender
           in: query
           default: 0
-          description: The numerical ID representing the gender of the user - 0 for men, 1 for women
+          description: The unique ID number representing the gender of the user - 0 for men, 1 for women
           required: true
           type: integer
         - name: sid
@@ -357,13 +352,13 @@ paths:
         - name: shop_id
           default: 1117
           in: query
-          description: The numerical ID of the ShoeSizeMe client
+          description: The unique ID number of the ShoeSizeMe client
           required: true
           type: integer
         - name: gender
           default: 0
           in: query
-          description: The numerical ID representing the gender of the user - 0 for men, 1 for women
+          description: The unique ID number representing the gender of the user - 0 for men, 1 for women
           required: true
           type: integer
         - name: sid
@@ -423,13 +418,13 @@ paths:
         - name: shop_id
           default: 1117
           in: query
-          description: The numerical ID of the ShoeSizeMe client
+          description: The unique ID number of the ShoeSizeMe client
           required: true
           type: integer
         - name: gender
           default: 0
           in: query
-          description: The numerical ID representing the gender of the user - 0 for men, 1 for women
+          description: The unique ID number representing the gender of the user - 0 for men, 1 for women
           required: true
           type: integer
         - name: sid
